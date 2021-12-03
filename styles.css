@@ -198,3 +198,6 @@ button {
   background-image: linear-gradient(to bottom, #3c45fa, #343cd9);
   text-decoration: none;
 }
+.hidden {
+  visibility: hidden;
+}

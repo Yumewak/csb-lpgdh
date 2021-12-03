@@ -1,2 +1,0 @@
-(this["webpackJsonpsegunda-etapa"]=this["webpackJsonpsegunda-etapa"]||[]).push([[0],{9:function(e,n,t){"use strict";t.r(n);t(1);var o=t(3),r=t.n(o),s=t(0);var a=function(){const e=(new Date).getHours();return document.getElementById("greeting").innerHTML=e<12?"Good morning":e<18?"Good afternoon":"Good evening",Object(s.jsx)("h1",{})};var c=function(){return Object(s.jsx)("div",{children:Object(s.jsx)(a,{})})};r.a.render(Object(s.jsx)(c,{}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.eb77d4cd.chunk.js.map
