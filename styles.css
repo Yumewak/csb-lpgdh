@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  line-height: 2;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+hr {
+  border-color: #107a7a5b;
+  border-style: dotted none none;
+  border-width: 10px;
+  height: 0px;
+  width: 6%;
+  margin-top: 100px;
+}
+p {
+  line-height: 2;
+}
+.profile {
+  display: inline-block;
+  width: 50%;
+}
+.footer-link {
+  color: #11999e;
+}
+.btn {
+  color: #11999e;
+}
+.skill-row {
+  display: inline-block;
+  width: 50%; /*You can also put "margin:auto"*/
+  margin-top: 100px; /*You can also use margin:100px auto 100px auto*/
+  margin-bottom: 100px; /*You can also use margin:100px auto 100px auto*/
+  text-align: left;
+}
+.main-photo {
+  width: 25%;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+.software {
+  width: 25%;
+  float: left; /* you can use "clear" to target the text and act like anti-float*/
+  margin-right: 30px; /*padding or margin*/
+}
+.poland {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+.project {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.target-p {
+  clear: both; /* Delete this line in order to change the wrap*/
+}
+.top-container {
+  background-color: #eaf6f6; /* E4F9F5 */
+  padding-top: 100px;
+  position: relative;
+}
+.middle-container {
+  background-color: aliceblue;
+  padding-top: 100px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+span {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.rocket {
+  position: absolute;
+}
+.contact-me {
+  position: relative;
+  bottom: 30px;
+}
+.footer-link {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.copyright {
+  color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  padding: 20px 0 0 0;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* Dice start */
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+}
+
+.imgd {
+  width: 30%;
+}
+button {
+  font-family: cursive;
+}
+.btn1 {
+  background: #3434d9;
+  background-image: -webkit-linear-gradient(top, #3434d9, #472bb8);
+  background-image: -moz-linear-gradient(top, #3434d9, #472bb8);
+  background-image: -ms-linear-gradient(top, #3434d9, #472bb8);
+  background-image: -o-linear-gradient(top, #3434d9, #472bb8);
+  background-image: linear-gradient(to bottom, #3434d9, #472bb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #3c45fa;
+  background-image: -webkit-linear-gradient(top, #3c45fa, #343cd9);
+  background-image: -moz-linear-gradient(top, #3c45fa, #343cd9);
+  background-image: -ms-linear-gradient(top, #3c45fa, #343cd9);
+  background-image: -o-linear-gradient(top, #3c45fa, #343cd9);
+  background-image: linear-gradient(to bottom, #3c45fa, #343cd9);
+  text-decoration: none;
+}
